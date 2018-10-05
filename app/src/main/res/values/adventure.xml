@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hook">The hunt went well, as you return to your village with your companion a streak of smoke in the sky is clearly noticable. Both of you run to the village but alas, the chieftain\'s hut is already burnt down.</string>
+    <string name="hook_answer_1">Organise a crew to help put out the fire</string>
+    <string name="hook_answer_2">Gather what you can find and go to safety</string>
+    <string name="hook_answer_3">Gather what you can find and go to safety</string>
+</resources>
