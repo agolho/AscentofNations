@@ -1,10 +1,10 @@
 package com.lightwhite.ascentofnations
 
+
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.lightwhite.ascentofnations.R.layout.introduction
-import kotlinx.android.synthetic.main.activity_main.*
+import android.view.View
 
 
 class MainActivity : AppCompatActivity() {
@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        button.setOnClickListener {
-            val intent = Intent(this, introduction::class.java)
-            startActivity(intent);
+    }
+    fun startButton(view: View) {
+        val intent = Intent(this, adventure_hook::class.java).apply {
         }
+        startActivity(intent)
     }
 }
